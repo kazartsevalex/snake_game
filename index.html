@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Simple Snake Game</title>
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+    <header>
+      <div id="disclaimer">
+        <h1>Snake Game!</h1>
+        <h3>Rules:</h3>
+        <ul>
+          <li>Snake should eat food (green) and special food(random colored);</li>
+          <li>Snake should be moved by arrows;</li>
+          <li>Food gives 1 point and enlarges tail by 1 segment;</li>
+          <li>Special food gives 9 points and enlarges tail by 2 segments;</li>
+          <li>If snake eats tail, game is over;</li>
+          <li>If snake hits boundaries, game area reduces;</li>
+          <li>If game area is too small, game is over;</li>
+          <li>If you earned more points than in previous game, points display became green.</li>
+        </ul>
+      </div>
+      <div id="points">Points: --</div>
+    </header>
+    <main>
+      <canvas id="canvas" width="800" height="800"></canvas>
+    </main>
+    <script src="./scripts.js"></script>
+  </body>
+</html>
